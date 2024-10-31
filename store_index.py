@@ -23,7 +23,7 @@ embeddings = download_hugging_face_embeddings()
 
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
-index_name = "medicalbot"
+index_name = "ramcharitmanas"
 
 
 pc.create_index(
