@@ -1,4 +1,8 @@
 from src.helper import load_pdf_file, text_split, download_hugging_face_embeddings
+
+from langchain_community.document_loaders import PyPDFLoader, DirectoryLoader
+from langchain_community.embeddings import HuggingFaceEmbeddings
+
 from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
 from langchain_pinecone import PineconeVectorStore
