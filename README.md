@@ -11,4 +11,10 @@ conda activate ramcharitmanas
 
 pip install -r requirements.txt
 
+""" 
+pip install --upgrade sentence-transformers
+
+
+""
+
 ```
